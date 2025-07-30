@@ -1,21 +1,15 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
     int populacao , pontosTuristicos , populacao2 , pontosTuristicos2;
     float pib , area , pib2 , area2;
     char nome[100] , estado , codigo[3] , nome2[100] , estado2 , codigo2[3];
     printf("digite o nome da cidade da carta 1 sem espacos \n");
-    scanf("%s" , &nome);
+    scanf("%s" , nome);
     printf("digite a letra do estado\n");
     scanf(" %c" , &estado);
     printf("digite o codigo\n");
-    scanf("%s" , &codigo);
+    scanf("%s" , codigo);
     printf("digite o numero da populacao \n");
     scanf("%d" , &populacao);
     printf("digite a quantidade de pontos turisticos \n");
@@ -25,12 +19,14 @@ int main() {
     printf("digite a area\n");
     scanf("%f" , &area);
 
+    getchar();
+
     printf("digite o nome da cidade da carta 2 sem espacos\n");
-    scanf("%s" , &nome2);
+    scanf("%s" , nome2);
     printf("digite a letra do estado\n");
     scanf(" %c" , &estado2);
     printf("digite o codigo\n");
-    scanf("%s" , &codigo2);
+    scanf("%s" , codigo2);
     printf("digite o numero da populacao \n");
     scanf("%d" , &populacao2);
     printf("digite a quantidade de pontos turisticos \n");
@@ -40,9 +36,10 @@ int main() {
     printf("digite a area\n");
     scanf("%f" , &area2);
     
-
-
+    getchar();
+    
     printf("\n-----------------------------------------------------\n carta 1\n");
+    //nao sei pq mas aqui no github nao esta aparecendo o nome da primeira cidade
     printf(" CIDADE :%s\n" , nome);
     printf(" ESTADO : %c \n" , estado);
     printf(" CODIGO :%s\n" , codigo);
@@ -61,5 +58,9 @@ int main() {
     printf(" PIB :%f\n" , pib2);
     printf(" AREA :%f\n" , area2);
 
-    return 0;
+
+
+
+
+    return 0; 
 }
